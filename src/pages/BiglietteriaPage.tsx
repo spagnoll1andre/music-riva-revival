@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { ExternalLink, Ticket } from "lucide-react";
+import heroImg from "@/assets/hero-orchestra.jpg";
 
 interface TicketEvent {
   title: string;
