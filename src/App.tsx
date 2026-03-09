@@ -20,7 +20,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/music-riva-revival/">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/chi-siamo" element={<ChiSiamoPage />} />
