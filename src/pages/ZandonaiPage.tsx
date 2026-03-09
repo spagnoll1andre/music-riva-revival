@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { Trophy } from "lucide-react";
+import heroZandonaiImg from "@/assets/hero-zandonai.jpg";
 
 const prizes = [
   { label: "Primo Premio", amount: "€ 8.000" },
