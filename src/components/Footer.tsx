@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Youtube, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import logoImg from "@/assets/logo-musicariva.png";
 
 const footerLinks = [
   { label: "Chi siamo", href: "/chi-siamo" },
