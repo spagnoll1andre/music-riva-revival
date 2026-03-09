@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
+import heroCorsiImg from "@/assets/hero-corsi.jpg";
 
 interface Course {
   instrument: string;
