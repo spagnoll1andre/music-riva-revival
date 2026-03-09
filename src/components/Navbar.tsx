@@ -40,8 +40,8 @@ const Navbar = () => {
         }`}
       >
         <div className="container mx-auto flex items-center justify-between py-5 px-6">
-          <Link to="/" className="font-heading text-2xl font-semibold tracking-wider text-foreground">
-            <span className="text-gold-gradient">Musica</span>Riva
+          <Link to="/" className="flex items-center">
+            <img src={logoImg} alt="MusicaRiva" className="h-10 brightness-0 invert" />
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
