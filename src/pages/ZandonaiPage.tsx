@@ -33,6 +33,7 @@ const ZandonaiPage = () => {
         title="Concorso Zandonai"
         highlight="Zandonai"
         subtitle="31° Edizione – 2025"
+        backgroundImage={heroZandonaiImg}
       >
         <p className="font-body text-foreground/70 max-w-2xl mx-auto">
           Concorso Internazionale per Giovani Cantanti Lirici "Riccardo Zandonai"

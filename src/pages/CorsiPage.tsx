@@ -81,6 +81,7 @@ const CorsiPage = () => {
         title="Corsi di Alto Perfezionamento"
         highlight="Perfezionamento"
         subtitle="XXIX Edizione – 2025"
+        backgroundImage={heroCorsiImg}
       >
         <p className="font-body text-foreground/70 max-w-2xl mx-auto">
           Un'occasione unica per migliorare le proprie competenze musicali attraverso intense sessioni di studio, tenute da artisti di chiara fama internazionale.
