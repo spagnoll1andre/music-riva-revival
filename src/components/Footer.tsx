@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
             <Link to="/" className="inline-block">
-              <img src={logoImg} alt="MusicaRiva" className="h-10 brightness-0 invert" />
+              <img src={logoImg} alt="MusicaRiva" className="h-10" />
             </Link>
             <p className="text-sm text-muted-foreground mt-4 font-light leading-relaxed">
               Dal 1984, musica d'eccellenza a Riva del Garda. Concerti, masterclass, workshop e il Concorso Zandonai.
