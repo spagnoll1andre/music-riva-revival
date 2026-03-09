@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Outfit:wght@300;400;500;600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -41,7 +41,7 @@
     --gold-dark: 40 55% 40%;
     --surface-elevated: 220 12% 13%;
 
-    --font-heading: 'Cormorant Garamond', serif;
+    --font-heading: 'Libre Caslon Display', serif;
     --font-body: 'Outfit', sans-serif;
 
     --sidebar-background: 220 15% 7%;

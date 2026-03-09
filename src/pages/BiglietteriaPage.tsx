@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { ExternalLink, Ticket } from "lucide-react";
+import heroImg from "@/assets/hero-orchestra.jpg";
 
 interface TicketEvent {
   title: string;
@@ -65,7 +66,7 @@ const BiglietteriaPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <PageHeader title="Biglietteria" highlight="Biglietteria" subtitle="Acquista i tuoi biglietti">
+      <PageHeader title="Biglietteria" highlight="Biglietteria" subtitle="Acquista i tuoi biglietti" backgroundImage={heroImg}>
         <p className="font-body text-foreground/70 max-w-2xl mx-auto">
           Biglietti acquistabili anche in cassa, presso gli uffici di MusicaRiva in Viale della Liberazione 7, Palazzo San Francesco – Riva del Garda, dal lunedì al venerdì dalle 10.00 alle 12.30.
         </p>

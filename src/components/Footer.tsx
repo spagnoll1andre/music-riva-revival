@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Youtube, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import logoImg from "@/assets/logo-musicariva.png";
 
 const footerLinks = [
   { label: "Chi siamo", href: "/chi-siamo" },
@@ -17,8 +18,8 @@ const Footer = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
-            <Link to="/" className="font-heading text-2xl tracking-wider text-foreground">
-              <span className="text-gold-gradient">Musica</span>Riva
+            <Link to="/" className="inline-block">
+              <img src={logoImg} alt="MusicaRiva" className="h-10 brightness-0 invert" />
             </Link>
             <p className="text-sm text-muted-foreground mt-4 font-light leading-relaxed">
               Dal 1984, musica d'eccellenza a Riva del Garda. Concerti, masterclass, workshop e il Concorso Zandonai.

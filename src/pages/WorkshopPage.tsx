@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
+import heroWorkshopImg from "@/assets/hero-workshop.jpg";
 
 interface Workshop {
   title: string;
@@ -95,6 +96,7 @@ const WorkshopPage = () => {
         title="Workshop & Atelier Liuteria"
         highlight="Workshop"
         subtitle="XXIX Edizione – Luglio 2025"
+        backgroundImage={heroWorkshopImg}
       >
         <p className="font-body text-foreground/70 max-w-2xl mx-auto">
           I nostri workshop sono pensati per tutti: musicisti e non, curiosi, appassionati o semplici interessati.

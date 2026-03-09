@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import PageHeader from "@/components/PageHeader";
 import { motion } from "framer-motion";
 import { Trophy } from "lucide-react";
+import heroZandonaiImg from "@/assets/hero-zandonai.jpg";
 
 const prizes = [
   { label: "Primo Premio", amount: "€ 8.000" },
@@ -32,6 +33,7 @@ const ZandonaiPage = () => {
         title="Concorso Zandonai"
         highlight="Zandonai"
         subtitle="31° Edizione – 2025"
+        backgroundImage={heroZandonaiImg}
       >
         <p className="font-body text-foreground/70 max-w-2xl mx-auto">
           Concorso Internazionale per Giovani Cantanti Lirici "Riccardo Zandonai"
